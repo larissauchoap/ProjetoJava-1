@@ -1,14 +1,13 @@
 package br.com.dio;
 
+import br.com.dio.model.Gato;
+
 public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
-		int a=2;
-	    int b=3 ;
-	    int total= a+b;
-		
-		System.out.println("Hello world , o resultado e " + (total));
-		
+		Gato gato = new Gato();
+		System.out.println(gato);
+
 	}
 
 }
